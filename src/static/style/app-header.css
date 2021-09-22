@@ -1,7 +1,8 @@
 header {
     position: relative;
     vertical-align:-webkit-baseline-middle;
-    color: #f0a04b;
+    background-color: #e1eedd;
+    color: #183a1d;
     height: 70px;
     text-align: center;
 }
