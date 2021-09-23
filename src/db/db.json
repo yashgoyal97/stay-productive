@@ -1,0 +1,18 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "LEAD",
+      "motto": "Let's Explore And Develop",
+      "description": "Let's Explore And Develop",
+      "members": 0
+    },
+    {
+      "id": 2,
+      "name": "UNICORN",
+      "motto": "Fly High",
+      "description": "Fly High",
+      "members": 6
+    }
+  ]
+}

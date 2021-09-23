@@ -1,8 +1,11 @@
 import react from "react";
+import '../style/app-footer.css';
 
 const AppFooter = () => {
     return (
-        <p>2021 LEAD, Inc.</p>
+        <footer>
+            <p>2021 LEAD, Inc.</p>
+        </footer>
     );
 };
 

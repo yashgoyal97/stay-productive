@@ -1,16 +1,6 @@
 header {
-    position: relative;
-    vertical-align:-webkit-baseline-middle;
-    background-color: #e1eedd;
-    color: #183a1d;
-    height: 70px;
-    text-align: center;
-}
-
-h1 {
-    margin: 0px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
 }
