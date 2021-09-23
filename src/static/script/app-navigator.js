@@ -1,11 +1,19 @@
-import react from "react";
+import Menu from '@mui/material/Menu';
+import { MenuItem } from "@mui/material";
 
-const AppNavigator = () => {
+const AppNavigator = (props) => {
     return (
-        <div>
-            <button>Team Dashboard</button>
-            <button>Task Dashboard</button>
-        </div>
+        <Menu
+            id="basic-menu"
+            open={props.isMenuOpen}
+            MenuListProps={{
+                'aria-labelledby': 'basic-button',
+            }}
+        >
+            <MenuItem>Home</MenuItem>
+            <MenuItem>Teams Dashboard</MenuItem>
+            <MenuItem>Tasks Dashboard</MenuItem>
+        </Menu>
     );
 };
 

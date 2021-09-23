@@ -1,15 +1,13 @@
 import react from "react";
+import AppContent from "./app-content";
 import AppFooter from "./static/script/app-footer";
 import AppHeader from "./static/script/app-header";
-import AppNavigator from "./static/script/app-navigator";
-import TeamDashboard from "./team-management";
 
 const StayProductive = () => {
     return (
-        <div>
+        <div id="container">
             <AppHeader></AppHeader>
-            <AppNavigator></AppNavigator>
-            <TeamDashboard></TeamDashboard>
+            <AppContent></AppContent>
             <AppFooter></AppFooter>
         </div>
     );

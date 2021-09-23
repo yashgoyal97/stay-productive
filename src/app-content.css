@@ -1,0 +1,13 @@
+#backgroundText {
+  text-align: center;
+  color: #052b2e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main {
+  padding: 20px 30px;
+}

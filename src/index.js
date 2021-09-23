@@ -2,12 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import reportWebVitals from './reportWebVitals';
 import StayProductive from './stay-productive';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import allReducers from './reducers';
 import './index.css';
 
+const store = createStore(allReducers);
+
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
+  <Provider store={store}>
     <StayProductive></StayProductive>
-  </React.StrictMode>,
+  </Provider>,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 

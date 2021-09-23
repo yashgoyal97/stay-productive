@@ -1,0 +1,7 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    padding: 0px 30px;
+    background-color: #0c4d52cb;
+    width: -webkit-fill-available;
+}
